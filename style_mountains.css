@@ -1,0 +1,35 @@
+.wrap{
+	width: 600px;
+	height: 500px;
+	background-color: #80cdc6;
+	position: relative;
+}
+img{
+width: 600px;	
+}
+
+.clouds, .water, .ship, .world{
+	position: absolute;
+}
+
+.world{
+z-index: 1;
+bottom: 25px;
+}
+
+.ship{
+	width: 150px;
+	bottom: 40px;
+	z-index: 2;
+}
+
+.clouds{
+	width: 400px;
+	right: 0;
+	top: 0;
+}
+
+.water{
+	bottom: 0;
+	z-index: 3;
+}

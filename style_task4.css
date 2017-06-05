@@ -1,0 +1,45 @@
+
+.fullwrap{
+	width: 580px;
+	height: 640px;
+	border: solid black;
+	margin: 0 auto;
+}
+.header{
+	height: 100px;
+	width: 565px;
+	border: solid black;
+	margin: 5px auto;
+}
+
+.wrap{
+	/*height: 400px;*/
+	width: 565px;
+	border: solid black;
+	margin: 5px auto;
+}
+.main{
+	height: 380px;
+	width: 425px;
+	border: solid black;
+	margin: 5px 13px 5px 5px;
+	float: left;
+	}
+.sidebar{
+	height: 380px;
+	width: 100px;
+	border: solid black;
+	margin: 5px;
+	float: left;
+	}
+.clear{
+	clear: both;
+}
+.footer{
+	height: 100px;
+	width: 565px;
+	float: left;
+	border: solid black;
+	margin: 5px;
+
+}
